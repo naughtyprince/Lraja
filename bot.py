@@ -53,7 +53,6 @@ bot = InstaBot(
         'follow', 'follower', 'gain', '.id', '_id', 'bags'
     ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
-	
 	count = 0
 	
 while count < 100:
