@@ -9,6 +9,8 @@ from src.feed_scanner import feed_scanner
 from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
+count = 0
+
 bot = InstaBot(
     login=os.environ.get('username'),
     password=os.environ.get('password'),
@@ -53,7 +55,6 @@ bot = InstaBot(
         'follow', 'follower', 'gain', '.id', '_id', 'bags'
     ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
-	count = 0
 	
 while count < 100:
 
