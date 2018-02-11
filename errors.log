@@ -1,0 +1,12 @@
+WARNING:fake_useragent:Error occurred during loading data. Trying to use cache server https://fake-useragent.herokuapp.com/browsers/0.1.8
+Traceback (most recent call last):
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python36-32\lib\site-packages\fake_useragent\utils.py", line 166, in load
+    verify_ssl=verify_ssl,
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python36-32\lib\site-packages\fake_useragent\utils.py", line 144, in get_browser_versions
+    'No browsers version found for {browser}'.format(browser=browser))
+fake_useragent.errors.FakeUserAgentError: No browsers version found for Edge/IE
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "C:\Users\krish\Downloads\instabot.py-master\instabot.py-master\src\instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
