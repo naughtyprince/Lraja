@@ -53,7 +53,10 @@ bot = InstaBot(
         'follow', 'follower', 'gain', '.id', '_id', 'bags'
     ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
-while True:
+	
+	count = 0
+	
+while count < 100:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
     #print("## MODE 1 = MODIFIED MODE BY KEMONG")
@@ -70,7 +73,7 @@ while True:
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
 
     mode = 0
-
+	count += 1
     #print("You choose mode : %i" %(mode))
     #print("CTRL + C to cancel this operation or wait 30 seconds to start")
     #time.sleep(30)
