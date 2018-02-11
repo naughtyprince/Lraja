@@ -25,8 +25,8 @@ bot = InstaBot(
     follow_per_day=100,
     follow_time= 1 * 60,
     unfollow_per_day = 100,
-    unfollow_break_min = 2,
-    unfollow_break_max = 20,
+    unfollow_break_min = 60,
+    unfollow_break_max = 120,
     log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment
