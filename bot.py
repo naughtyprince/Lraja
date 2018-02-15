@@ -12,10 +12,10 @@ from src.unfollow_protocol import unfollow_protocol
 count = 0
 
 bot = InstaBot(
-    login=os.environ.get('username'),
-    password=os.environ.get('password'),
-    like_per_day=450,
-    comments_per_day=450,
+    login='lyric.raja',
+    password='d#FUN3732',
+    like_per_day=850,
+    comments_per_day=850,
     tag_list=['vizagdairies', 'vizag', 'vishakapatnam', 'rkbeach', 'rushikonda', 'rushikondabeach', 'lovevizag', 'vizagdiaries', 'vizagbeach', 'vizagtrip', 
               'hyderabadDiaries', 'hyderabadDays', 'hyderabaddays', 'hyderabaddiaries', 'charminar', 'charminarstreets', 'HyderabadLife', 'hyderabadLove', 
               'hellohyderabad', 'hyderabadphotographers', 'sohyderabad', 'photographersofhyderabad'],
@@ -38,7 +38,7 @@ bot = InstaBot(
                    "WOW", "cool", "magnificent", "magical",
                    "very cool", "very beautiful", "beautiful", "so beautiful",
                    "so colorful", "lovely",
-                   "so lovely", "very lovely", "glorious"
+                   "so lovely", "very lovely", "glorious",
                    "adorable", "excellent", "amazing"],
                   [". :) Check out my pics too ", ".. :) Check out my pics too", "... Check out my pics too", 
                   "! :D Check out my pics too", "!! :) Check out my pics too", "!!! :d Check out my pics too"]],
@@ -79,6 +79,7 @@ while count < 100:
     #time.sleep(30)
 
     if mode == 0:
+        print("mode 1 selected")
         bot.new_auto_mod()
 
     elif mode == 1:
